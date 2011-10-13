@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	}
 }
 ol, ul {
 	list-style: none;
@@ -49,5 +50,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+#main-content {
+	background-color:white;
+	margin:20px;
+	height:500px;
+	font-family:Arial;
+	}
+	
+	.h1 {
+	font-size:120 px;
+	color: black;
+	}
+	
+	.h2 {
+	font size: 60 px;
+	color:red;
+	}
+	
+	
+	
+	
+	
 
 
