@@ -52,21 +52,43 @@ table {
 }
 
 #main-content {
+	position: relative;
 	background-color:white;
 	margin:20px;
 	height:500px;
 	font-family:Arial;
 	}
 	
-	.h1 {
+	.article {
+	float:left;
+	width: 50%;
+	}
+	
+	h1 {
 	font-size:120 px;
 	color: black;
 	}
 	
-	.h2 {
+	h2 {
 	font size: 60 px;
 	color:red;
 	}
+	
+	p {
+	float: left;
+	}
+	
+	img-cat.jpg {
+	float: left;
+	}
+	
+	img-dog.jpg {
+	float: left;
+	}
+	
+
+	
+	
 	
 	
 	
