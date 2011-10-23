@@ -50,3 +50,13 @@ table {
 	border-spacing: 0;
 }
 
+#site-wrapper {
+	position: absolute;
+	background-color: #ecf3d5;
+	height: 50px;
+}
+
+#site-wrapper main-menu {
+	background-color:#74#49#18;
+	height: 50px;
+}
