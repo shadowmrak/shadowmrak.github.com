@@ -51,39 +51,40 @@ table {
 	border-spacing: 0;
 }
 
-#main-content {
+section {
 	position: relative;
-	background-color:white;
 	margin:20px;
-	height:500px;
 	font-family:Arial;
+	width:1000px;
 	}
 	
-	.article {
+	article {
 	float:left;
-	width: 50%;
+	width: 460px;
+	margin-right:20px;
 	}
 	
 	h1 {
-	font-size:120 px;
-	color: black;
+	font-size:1.5em;
+	font-weight:bold;
 	}
 	
 	h2 {
-	font size: 60 px;
-	color:red;
+	font-size:1em;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:10px;
 	}
 	
 	p {
-	float: left;
+	font-size:.75em;
+	line-height:1.5em;
+	margin-top:1em;
 	}
 	
-	img-cat.jpg {
-	float: left;
-	}
-	
-	img-dog.jpg {
-	float: left;
+	img {
+	float: left; 
+	padding-right:20px;
 	}
 	
 

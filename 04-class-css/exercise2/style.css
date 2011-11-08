@@ -50,13 +50,81 @@ table {
 	border-spacing: 0;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
 #site-wrapper {
-	position: absolute;
+	position: relative;
 	background-color: #ecf3d5;
-	height: 50px;
+	height: 150px;
+	}
+
+#site-header {
+   width: 306px; 
+   height: 123px;
+   background: url(images/logo.png);
+   text-indent: -9999px;
 }
 
+
+
+/*
 #site-wrapper main-menu {
+	position:relative;
 	background-color:#74#49#18;
-	height: 50px;
+	height: 100px;
+	width:100%;
+	}
+*/	
+
+#menu-wrapper {
+	position:relative;
+	height:35px;
+	background-color:#744918;
+	margin:auto;
 }
+
+#main-menu  {
+    position:absolute;
+    margin:20px;
+    }
+	
+#main-menu li {
+	float:left;
+	}
+	
+	li a {
+	font-family:Arial;
+	color:white;
+	text-transform:uppercase;
+	text-decoration:none;
+	margin:10px;
+	}
+
+nav#ul {
+	margin: 0 auto;
+	width: 1000px;
+	}
+
+#content {
+	font-family: Arial;
+	color:#8B4513;
+	}
+	
+h1 h2 {
+	font-family: Arial;
+	text-transform:uppercase;
+	}
+
+	
+	
