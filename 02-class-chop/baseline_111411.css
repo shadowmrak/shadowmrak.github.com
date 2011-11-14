@@ -75,61 +75,127 @@ html[xmlns] .clearfix { display: block; }
 
 
 Styling starts here
-  
 
-#main-nav {
-	background-color:white:
-	margin:20;
-	width:960px;
-	position:absolute;
-	}
-	
-	li a {
-	width: 200px;
-	height: 50px;
-	margin:5px;
-	float:left;
+  
+header {
+	width: 960px;
 	display:block;
-	background-color:white;
+	}
+
+h1 {  
+  	text-align:center;
+  	}
+  	
+h1 a { 
+	font-family:LeagueGothic;
+	font-size:110px;
+	text-transform:uppercase;
 	text-decoration:none;
 	color:black;
-	border-top-style:solid;
-	border-bottom-style:solid;
-	border-color:black;
-	border-weight: 1px;
-	font-size:24px;
+	padding:20px;
+	}
+
+h1 a .word2 {
 	font-family:Georgia;
 	font-weight:bold;
+	font-style:italic;
+	text-transform:lowercase;
+	font-size:47px;
+	text-decoration:none;
+	color:#C8C8C8;
+	border-top:double;
+	border-top-width:4px;
+	border-bottom:double;
+	border-bottom-width:4px;
+	vertical-align:50%;
+	}
+
+body {
+	margin: 0 auto;
+	width:960px;
 	}
 	
-	div.img {
-	position: relative;
-
+nav#main-nav {
+	position:absolute;
+	border-top:solid;
+	border-top-width:4px;
+	border-bottom:solid;
+	border-bottom-width:4px;
+	width:960px;
+	text-align:center;
 	}
-		
-	h1 {
+	
+	nav ul {
+	margin:0 auto;
+	width:75%;
+	}
+	
+	nav li {
 	float:left;
+	padding:8px;
+	}
+	
+nav#main-nav li a {
+	font-family:Georgia;
+	font-size: 25px;
+	font-weight:bold;
+	color:black;
+	text-decoration: none;
+	height:30px;
+	}
+	
+	section {
+	top:60px;
+	position:relative;
+	margin:10px;
 	font-family: Georgia;
-	color: black;
-	font-size: 22px;
-	font-weight: bold;
-	width: 300px;
+	width:960px;
+	height:550px;
+	display:block;
+	}
+	
+	article {
+	float:left;
+	width:450px;
+	padding-left:20px;
+	}
+	
+	h2 {
+	font-size:24px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:10px;
 	}
 	
 	p {
-	float: left;
-	font-family: Georgia
-	color: black;
-	font-size: 14px;
-	width: 300px;
+	font-family:Georgia;
+	font-size:15.5px;
+	line-height:1.25em;
+	margin-top:1em;
+	width:460px;
 	}
-	
-	div.article{
-	float:left;
-	width: 500px;
-	float:left;
-	}
-	
 
+	footer {
+	border-top:solid;
+	border-width:4px;
+	clear:both;
+	font-size:16px;
+	font-weight:normal;
+	width:960px;
+	padding-top:16px;
+	}
+	
+	footer a {
+	color:red;
+	font-size:16px;
+	font-weight:normal;
+	text-decoration:none;
+	}
+	
+	.alignright {
+	float:right;
+	}
+	
+	
 	
 	
