@@ -87,6 +87,8 @@ table {
 	}
 */	
 
+
+
 #menu-wrapper {
 	position:relative;
 	height:35px;
@@ -121,10 +123,21 @@ nav#ul {
 	color:#8B4513;
 	}
 	
-h1 h2 {
+h1 {
+	font-family: 'Lobster';
+	font-size:75px;
+	}
+	
+h2{
 	font-family: Arial;
 	text-transform:uppercase;
+	font-weight:bold;
 	}
-
+	
+p {
+	font-family:Arial;
+	color:black;
+	font-size:12px;
+	} 
 	
 	
