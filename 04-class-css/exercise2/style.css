@@ -31,20 +31,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -57,87 +62,256 @@ table {
   visibility: hidden;
   line-height: 0;
   height: 0;
-	}
+}
 
 .clearfix { display: inline-block; }
   html[xmlns] .clearfix { display: block; }
   * html .clearfix { height: 1%; }
 
+div#site-wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+header#site-header {
+   margin: 0 auto;
+   width:750px;
+}
+
 #site-wrapper {
 	position: relative;
-	background-color: #ecf3d5;
-	height: 150px;
-	}
+	height: 125px;
+	width:750px;
+}
 
 #site-header {
-   width: 306px; 
-   height: 123px;
-   background: url(images/logo.png);
-   text-indent: -9999px;
+	position: relative;
+	width: 750px;
 }
 
-
-
-/*
-#site-wrapper main-menu {
-	position:relative;
-	background-color:#74#49#18;
-	height: 100px;
-	width:100%;
-	}
-*/	
-
-
-
-#menu-wrapper {
-	position:relative;
-	height:35px;
-	background-color:#744918;
-	margin:auto;
+#logo {
+	width: 306px;
+	height:120px;
+	background:url(images/logo.png) no-repeat;
+	text-indent: -9999px;
 }
-
-#main-menu  {
-    position:absolute;
-    margin:20px;
-    }
 	
-#main-menu li {
-	float:left;
-	}
+#top-nav {
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
 	
-	li a {
-	font-family:Arial;
-	color:white;
-	text-transform:uppercase;
-	text-decoration:none;
-	margin:10px;
-	}
-
-nav#ul {
+#top-nav a {
+	padding: 20px;
+}
+	
+div#menu-wrapper {
 	margin: 0 auto;
-	width: 1000px;
-	}
+	width: 100%
+}
+	
+nav#main-menu {
+	margin: 0 auto;
+	width: 750px;
+}
+	
+#menu-wrapper {
+	position: relative;
+	height: 37px;
+}
 
-#content {
-	font-family: Arial;
-	color:#8B4513;
-	}
-	
-h1 {
-	font-family: 'Lobster';
-	font-size:75px;
-	}
-	
-h2{
-	font-family: Arial;
-	text-transform:uppercase;
-	font-weight:bold;
-	}
+#main-menu {
+	position: relative;
+	top: 10px;
+}
+
+#main-menu li a{
+	padding-right:35px;
+	float: left;
+}
+
+h2 {
+	padding-top:25px;
+}
 	
 p {
+	padding-top:10px;
+	width: 450px;
+}
+	
+div#content-wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+	
+div#content {
+	margin: 0 auto;
+	width: 750px;
+}
+	
+#content {
+	position: relative;
+	top: 40px;
+	padding-bottom:50px;
+	width: 750px;
+}
+
+#page {
+	width: 550px;
+}
+
+#sidebar {
+	position: absolute;
+	top: 65px;
+	right: 0;
+	width: 200px;
+	padding-left:25px;
+}
+
+#sidebar ul {
+	padding-bottom:15px;
+}
+
+#sidebar img {
+	position: relative;
+	padding-top:10px; 
+}
+
+#sidebar ul {
+	padding: 10px 0 10px 0;
+}
+
+div#footer-wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer#site-footer {
+	margin: 0 auto;
+	width: 750px;
+}
+
+footer#site-footer h1 {
+	padding-bottom:5px;
+	padding-top: 15px;
+}
+
+#footer-wrapper {
+	position: relative;
+	top: 75px;
+	width: 750px;
+	height: 150px;
+}
+
+#site-footer {
+	position: relative;
+	top: 20px;
+	width: 750px;
+}
+
+section#footer-contact p {
+	width: 250px;
+}
+
+section#footer-follow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;	
+}
+
+#left-logo, #right-logo, #middle-logo {
+	float: left;
+	padding: 10px 10px 0 0;
+}
+	
+#site-wrapper {
+	background:#ECF3D5;
+}
+
+#menu-wrapper {
+	background-color: #744918;
+}
+
+#top-nav a {
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
+	color: #744918;
+}
+
+#main-menu li a {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+
+li a#last-faq{
+	color: #B7C850;
+}
+
+h1 {
+	color: #744918;
+	font-family: 'Lobster', cursive;
+	font-size:75px;
+}
+	
+h2{
+	color: #744918;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight:bold;
+}
+	
+p {
+	color: gray;
 	font-family:Arial;
-	color:black;
 	font-size:12px;
-	} 
+	line-height: 1.5;
+} 
+
+#sidebar ul a {
+	color:gray;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial;
+	line-height: 25px;
+	text-decoration: none;
+	padding: 10px 0 25px 0;
+}
 	
-	
+#sidebar a:hover {
+	color: #A5C748;
+}
+
+footer#site-footer h1 {
+	color: #DBD2BD;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+footer#site-footer p {
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+	line-height: 1.25em;
+	width: 125px;
+}
+
+footer#site-footer a {
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+	line-height: 1.25em;
+}
+
+#footer-wrapper {
+	background-color: #744918;
+}
+
+#footer-wrapper {
+	background-color: #744918;
+}
